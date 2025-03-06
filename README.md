@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Rajshekhar Roy</h1>
 <h3 align="center">A passionate full stack developer</h3>
 
-- 📫 How to reach me **raj.codehub@gmail.com**
+- 📫 How to reach me **raj@rajshekharroy.com**
 
 - 📄 Know about my experiences [https://drive.google.com/file/d/1rhIdE0eDvwEZ9cF5yBXk2Y4xtMGcnjV-/view](https://drive.google.com/file/d/1rhIdE0eDvwEZ9cF5yBXk2Y4xtMGcnjV-/view)
 
