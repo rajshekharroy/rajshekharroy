@@ -61,7 +61,7 @@ Currently focused on **RAG system design** — ingestion pipelines, chunking str
 
 **[ DATABASES & DATA ]**
 
-![PostgreSQL (Prisma](https://img.shields.io/badge/-PostgreSQL%20%28Prisma-24283b?style=flat&labelColor=1a1b26) ![Drizzle)](https://img.shields.io/badge/-Drizzle%29-24283b?style=flat&labelColor=1a1b26) ![MongoDB (Mongoose)](https://img.shields.io/badge/-MongoDB%20%28Mongoose%29-24283b?style=flat&logo=mongodb&logoColor=4ade80&labelColor=1a1b26) ![ClickHouse](https://img.shields.io/badge/-ClickHouse-24283b?style=flat&logo=clickhouse&logoColor=f59e0b&labelColor=1a1b26) ![MySQL](https://img.shields.io/badge/-MySQL-24283b?style=flat&logo=mysql&logoColor=f59e0b&labelColor=1a1b26) ![Redis](https://img.shields.io/badge/-Redis-24283b?style=flat&logo=redis&logoColor=ef4444&labelColor=1a1b26) ![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-24283b?style=flat&logo=rabbitmq&logoColor=f59e0b&labelColor=1a1b26) 
+![PostgreSQL (Prisma/Drizzle)](https://img.shields.io/badge/-PostgreSQL%20%28Prisma%2FDrizzle%29-24283b?style=flat&labelColor=1a1b26) ![MongoDB (Mongoose)](https://img.shields.io/badge/-MongoDB%20%28Mongoose%29-24283b?style=flat&logo=mongodb&logoColor=4ade80&labelColor=1a1b26) ![ClickHouse](https://img.shields.io/badge/-ClickHouse-24283b?style=flat&logo=clickhouse&logoColor=f59e0b&labelColor=1a1b26) ![Redis](https://img.shields.io/badge/-Redis-24283b?style=flat&logo=redis&logoColor=ef4444&labelColor=1a1b26) ![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-24283b?style=flat&logo=rabbitmq&logoColor=f59e0b&labelColor=1a1b26) 
 
 **[ INFRASTRUCTURE ]**
 
