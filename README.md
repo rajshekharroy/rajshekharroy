@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=200&section=header&text=RAJSHEKHAR%20ROY&fontSize=52&fontColor=e2e8f0&fontAlignY=38&desc=Full%20Stack%20Engineer%20%E2%80%A2%20Systems%20Thinker%20%E2%80%A2%20Builder&descAlignY=60&descSize=16&descColor=94a3b8&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=200&section=header&text=RAJSHEKHAR%20ROY&fontSize=52&fontColor=e2e8f0&fontAlignY=38&desc=Full%20Stack%20Engineer%20%E2%80%A2%20Backend%20Systems%20%E2%80%A2%20AI&descAlignY=60&descSize=16&descColor=94a3b8&animation=fadeIn" width="100%" />
 
 </div>
 
 <div align="center">
 
-![Typing SVG](<https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=4000&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=800&height=50&lines=Software%20Engineer%20(Backend%20%26%20AI%20Infrastructure).;Building%20scalable%20backends%20and%20AI-powered%20platforms.;Focusing%20on%20robust%20architecture%20and%20real-world%20engineering.>)
+![Typing SVG](<https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=4000&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=800&height=50&lines=Full%20Stack%20Engineer%20(Backend%20%26%20AI%20Infrastructure).;Building%20scalable%20backends%20and%20AI-powered%20platforms.;Focusing%20on%20robust%20architecture%20and%20real-world%20engineering.>)
 
 </div>
 
@@ -22,14 +22,14 @@
 
 ```typescript
 const me: Engineer = {
-  role: "Full Stack Developer",
+  role: "Full Stack Engineer",
   focus: [
     "Backend Architecture",
     "AI Infrastructure",
     "Distributed Systems",
     "RAG Pipelines",
   ],
-  background: "B.Sc Mathematics (Hons) → Systems Engineering",
+  background: "B.Sc Mathematics (Hons) → Systems Architecture",
   currently: "Building a multi-tenant RAG backend platform",
   philosophy: "Understand deeply. Build deliberately. Scale cleanly.",
 };
@@ -61,7 +61,7 @@ Currently deep in **RAG system design** — ingestion pipelines, chunking strate
 
 **[ DATABASES & DATA ]**
 
-![PostgreSQL (Prisma, Drizzle)](https://img.shields.io/badge/-PostgreSQL%20(Prisma%2C%20Drizzle)-24283b?style=flat&logo=postgresql&logoColor=38bdf8&labelColor=1a1b26) ![MongoDB (Mongoose)](https://img.shields.io/badge/-MongoDB%20(Mongoose)-24283b?style=flat&logo=mongodb&logoColor=4ade80&labelColor=1a1b26) ![ClickHouse / MySQL](https://img.shields.io/badge/-ClickHouse%20%2F%20MySQL-24283b?style=flat&logo=clickhouse&logoColor=f59e0b&labelColor=1a1b26) ![Redis / RabbitMQ](https://img.shields.io/badge/-Redis%20%2F%20RabbitMQ-24283b?style=flat&logo=redis&logoColor=ef4444&labelColor=1a1b26) 
+![PostgreSQL (Prisma](https://img.shields.io/badge/-PostgreSQL%20(Prisma-24283b?style=flat&labelColor=1a1b26) ![Drizzle)](https://img.shields.io/badge/-Drizzle)-24283b?style=flat&labelColor=1a1b26) ![MongoDB (Mongoose)](https://img.shields.io/badge/-MongoDB%20(Mongoose)-24283b?style=flat&logo=mongodb&logoColor=4ade80&labelColor=1a1b26) ![ClickHouse](https://img.shields.io/badge/-ClickHouse-24283b?style=flat&logo=clickhouse&logoColor=f59e0b&labelColor=1a1b26) ![MySQL](https://img.shields.io/badge/-MySQL-24283b?style=flat&logo=mysql&logoColor=f59e0b&labelColor=1a1b26) ![Redis](https://img.shields.io/badge/-Redis-24283b?style=flat&logo=redis&logoColor=ef4444&labelColor=1a1b26) ![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-24283b?style=flat&logo=rabbitmq&logoColor=f59e0b&labelColor=1a1b26) 
 
 **[ INFRASTRUCTURE ]**
 
@@ -105,6 +105,32 @@ Modular AI-powered backend service with RAG capabilities — data ingestion, emb
 
 ---
 
+## `> architecture --reference-blueprint`
+
+<br/>
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   Proxy & Edge Layer              →   Nginx, SSL routing, custom domains    │
+│          ↓                                                                  │
+│   Auth & API Gateway              →   Identity, rate limiting, RBAC guards  │
+│          ↓                                                                  │
+│   Application & Core Services     →   Feature logic, request orchestration  │
+│          ↓                                                                  │
+│   Async & Worker Layer            →   AWS Lambda, S3 triggers, Playwright   │
+│          ↓                                                                  │
+│   Database & Caching Layer        →   PostgreSQL (Tx) + DynamoDB (NoSQL)    │
+│          ↓                                                                  │
+│   Data Pipeline & Analytics       →   Airflow + SQL Server → ClickHouse     │
+│          ↓                                                                  │
+│   AI & Vector Infrastructure      →   FastAPI + RAG · Document Chunking     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## `> stats --activity`
 
 <br/>
@@ -129,6 +155,22 @@ Modular AI-powered backend service with RAG capabilities — data ingestion, emb
 
 ---
 
+## `> philosophy.log`
+
+<br/>
+
+<div align="center">
+
+> _"Understand deeply. Build deliberately. Scale cleanly."_
+
+</div>
+
+<br/>
+
+My engineering approach is rooted in my Mathematics background: I prefer to analyze systems from first principles. While modern tooling accelerates execution, I focus heavily on the underlying architecture—navigating backend trade-offs, optimizing complex data flows, and building infrastructure that is both resilient and adaptable.
+
+---
+
 ## `> connect --open-to`
 
 <br/>
@@ -142,7 +184,7 @@ Modular AI-powered backend service with RAG capabilities — data ingestion, emb
 
 <br/>
 
-**Open to:** Backend / Systems engineering roles · AI infrastructure projects · Interesting technical problems
+**Open to:** Backend & Full Stack Engineering roles · AI / Data Infrastructure · Systems Architecture
 
 </div>
 
