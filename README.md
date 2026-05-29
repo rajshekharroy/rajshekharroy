@@ -37,9 +37,9 @@ const me: Engineer = {
 
 <br/>
 
-I design systems that handle **real complexity** — not just CRUD apps. My work spans production ETL pipelines, multi-tenant SaaS platforms, AI-powered backends, and infrastructure automation. I care about how things work internally, not just whether they work.
+I design data-intensive, highly scalable backend systems. My work spans production ETL pipelines, multi-tenant SaaS platforms, AI-powered backends, and infrastructure automation. I care deeply about architecture, system constraints, and understanding how things work beneath the surface.
 
-Currently deep in **RAG system design** — ingestion pipelines, chunking strategies, embedding trade-offs, vector retrieval, and LLM orchestration. Building it API-first, multi-tenant, and BYOK-ready.
+Currently focused on **RAG system design** — ingestion pipelines, chunking strategies, embedding trade-offs, vector retrieval, and LLM orchestration. Building it API-first, multi-tenant, and BYOK-ready.
 
 </td>
 </tr>
