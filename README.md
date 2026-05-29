@@ -154,7 +154,11 @@ Production ETL pipeline extracting data from MSSQL, compressing with Zstandard, 
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rajshekharroy&theme=tokyo-night&hide_border=true&bg_color=0d1117&line=38bdf8&point=f59e0b&color=94a3b8&area=true&area_color=38bdf820" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rajshekharroy/rajshekharroy/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rajshekharroy/rajshekharroy/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/rajshekharroy/rajshekharroy/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
 
 </div>
 
