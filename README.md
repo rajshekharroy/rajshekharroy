@@ -131,6 +131,23 @@ Modular AI-powered backend service with RAG capabilities — data ingestion, emb
 
 ---
 
+## `> current --deep-dives`
+
+<br/>
+
+<div align="center">
+
+| Area | Focus |
+| --- | --- |
+| 🧠 **RAG & AI Systems** | Chunking strategies, embedding models, vector DB trade-offs, retrieval quality |
+| ⚡ **Distributed Systems** | Redis pub/sub, RabbitMQ message queues, WebSocket event systems |
+| 🏗️ **System Design** | Designing for scale, fault tolerance, data consistency patterns |
+| 🔍 **DSA & Problem Solving** | Deepening first-principles understanding through deliberate practice |
+
+</div>
+
+---
+
 ## `> stats --activity`
 
 <br/>
