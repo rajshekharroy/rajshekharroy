@@ -90,61 +90,18 @@ A production-ready multi-tenant SaaS platform for portfolio building and persona
 
 <td width="50%" valign="top">
 
-### ETL Data Pipeline
+### AI Backend Platform
 
-**DATA PIPELINE**
+**AI PLATFORM**
 
-Production ETL pipeline extracting data from MSSQL, compressing with Zstandard, staging in S3, and loading into ClickHouse for sub-second analytical queries.
+Modular AI-powered backend service with RAG capabilities — data ingestion, embeddings, vector storage, and retrieval-based queries with multi-tenant isolation.
 
-`ClickHouse` `Apache Airflow` `AWS S3` `Express.js` `PostgreSQL` `PowerShell`
+`Node.js` `Vector DB` `OpenAI` `Gemini` `PostgreSQL`
 
 </td>
 </tr>
 
 </table>
-
----
-
-## `> architecture --patterns-i-think-in`
-
-<br/>
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│   API Gateway / Edge Layer        →   Rate limiting, auth, routing          │
-│          ↓                                                                  │
-│   Feature-based Backend           →   Clean separation, testable units      │
-│          ↓                                                                  │
-│   RBAC Middleware                 →   Custom roles, permission guards       │
-│          ↓                                                                  │
-│   Service Layer                   →   Business logic, orchestration         │
-│          ↓                                                                  │
-│   Data Layer                      →   PostgreSQL + ClickHouse + Redis       │
-│          ↓                                                                  │
-│   Pipeline / ETL                  →   Airflow → S3 → analytics              │
-│          ↓                                                                  │
-│   AI Layer                        →   RAG · Embeddings · Vector retrieval   │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## `> currently --learning`
-
-<br/>
-
-<div align="center">
-
-| Area | Focus |
-| --- | --- |
-| 🧠 **RAG & AI Systems** | Chunking strategies, embedding models, vector DB trade-offs, retrieval quality |
-| ⚡ **Distributed Systems** | Redis pub/sub, RabbitMQ message queues, WebSocket event systems |
-| 🏗️ **System Design** | Designing for scale, fault tolerance, data consistency patterns |
-| 🔍 **DSA & Problem Solving** | Practicing independently on weekends — no AI crutch |
-
-</div>
 
 ---
 
@@ -169,25 +126,6 @@ Production ETL pipeline extracting data from MSSQL, compressing with Zstandard, 
 <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=rajshekharroy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&langs_count=8" />
 
 </div>
-
----
-
-## `> philosophy.log`
-
-<br/>
-
-<div align="center">
-
-> _"I want to be the kind of engineer who can use AI effectively_
-> _without losing the underlying understanding of how systems actually work."_
-
-</div>
-
-<br/>
-
-My approach to engineering is shaped by a Mathematics background and a preference for understanding things from first principles. I originate product ideas and system designs myself — AI tools accelerate my execution, they don't replace my reasoning. On weekends I close the IDE extensions and rebuild things from scratch, deliberately.
-
-The goal isn't to be fast. The goal is to be **deeply capable** — and fast as a consequence.
 
 ---
 
